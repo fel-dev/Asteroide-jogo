@@ -2,15 +2,11 @@ import pygame
 from constants import *
 from player import Player
 
-
-
 def main():
     pygame.init()
 
-    # ✅ Criar o objeto de relógio
-    clock = pygame.time.Clock()
-
-    # ✅ Inicializar a variável de delta time
+    # ✅ Criar o objeto de relógio # ✅ Inicializar a variável de delta time
+    clock = pygame.time.Clock()    
     dt = 0
 
     player = Player(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2)
@@ -27,21 +23,21 @@ def main():
     running = True
 
     while running:
-        # ✅ Atualizar o delta time a cada frame
         dt = clock.tick(60) / 1000  # em segundos
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
+                
+        player.update(dt)
 
         screen.fill((0, 0, 0))  # fundo preto
-
-        # Desenhar aqui a nave, asteroides, etc.
         player.draw(screen)
-
         pygame.display.flip()  # atualizar a tela com o novo desenho
 
     pygame.quit() 
 
 if __name__ == "__main__":
     main()
+
+# Fim do arquivo main.py
