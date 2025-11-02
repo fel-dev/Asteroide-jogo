@@ -1,16 +1,26 @@
 import pygame
 from constants import *
 from player import Player
+from asteroid import Asteroid
 
 def main():
     pygame.init()
 
-    # ✅ Criar o objeto de relógio # ✅ Inicializar a variável de delta time
     clock = pygame.time.Clock()    
     dt = 0
 
+    updatable = pygame.sprite.Group()
+    drawable = pygame.sprite.Group()
+    asteroids = pygame.sprite.Group()    
+    Player.containers = (updatable, drawable)    
     player = Player(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2)
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+    Asteroid.containers = (asteroids, updatable, drawable)
+    asteroid = [
+        Asteroid(100, 100, ASTEROID_MIN_RADIUS),
+        Asteroid(300, 200, ASTEROID_MIN_RADIUS * 2),
+        Asteroid(500, 300, ASTEROID_MIN_RADIUS * 3)
+    ]
     pygame.display.set_caption("Jogo de Asteroides")
     print("Starting Asteroids!")
     print("Screen width:", SCREEN_WIDTH)
@@ -21,19 +31,23 @@ def main():
     print("ASTEROID_MAX_RADIUS =", ASTEROID_MAX_RADIUS * ASTEROID_KINDS, "\n")
 
     running = True
-
+    
     while running:
-        dt = clock.tick(60) / 1000  # em segundos
+        dt = clock.tick(60) / 1000
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
-                
-        player.update(dt)
+        
+        updatable.update(dt) # Atualizar todos os objetos no grupo updatable
+     
+        screen.fill((0, 0, 0))
+        
+        # Desenhar todos os objetos no grupo drawable
+        for obj in drawable:
+            obj.draw(screen)
 
-        screen.fill((0, 0, 0))  # fundo preto
-        player.draw(screen)
-        pygame.display.flip()  # atualizar a tela com o novo desenho
+        pygame.display.flip()
 
     pygame.quit() 
 
