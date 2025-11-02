@@ -1,1 +1,0 @@
-export const URL_IMAGE_BASE=`http://localhost:3000/files/file/`
