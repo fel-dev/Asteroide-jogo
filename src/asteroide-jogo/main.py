@@ -2,6 +2,7 @@ import pygame
 from constants import *
 from player import Player
 from asteroid import Asteroid
+from asteroidfield import AsteroidField
 
 def main():
     pygame.init()
@@ -9,18 +10,23 @@ def main():
     clock = pygame.time.Clock()    
     dt = 0
 
+# Grupos de sprites
     updatable = pygame.sprite.Group()
     drawable = pygame.sprite.Group()
-    asteroids = pygame.sprite.Group()    
-    Player.containers = (updatable, drawable)    
+    asteroids = pygame.sprite.Group() 
+    
+# Associar os grupos às classes
+    Player.containers = (updatable, drawable) 
+    Asteroid.containers = (asteroids, updatable, drawable)
+    AsteroidField.containers = (updatable,)
+    
+# Criar o jogador e Configurar a tela
     player = Player(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2)
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-    Asteroid.containers = (asteroids, updatable, drawable)
-    asteroid = [
-        Asteroid(100, 100, ASTEROID_MIN_RADIUS),
-        Asteroid(300, 200, ASTEROID_MIN_RADIUS * 2),
-        Asteroid(500, 300, ASTEROID_MIN_RADIUS * 3)
-    ]
+    
+# Inicializar o campo de asteroides
+    asteroid_field = AsteroidField()
+    
     pygame.display.set_caption("Jogo de Asteroides")
     print("Starting Asteroids!")
     print("Screen width:", SCREEN_WIDTH)
@@ -39,11 +45,10 @@ def main():
             if event.type == pygame.QUIT:
                 running = False
         
-        updatable.update(dt) # Atualizar todos os objetos no grupo updatable
-     
+        updatable.update(dt)
+        
         screen.fill((0, 0, 0))
         
-        # Desenhar todos os objetos no grupo drawable
         for obj in drawable:
             obj.draw(screen)
 
