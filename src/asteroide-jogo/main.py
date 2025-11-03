@@ -35,7 +35,8 @@ def main():
     print("ASTEROID_KINDS =", ASTEROID_KINDS)
     print("ASTEROID_SPAWN_RATE =", ASTEROID_SPAWN_RATE)
     print("ASTEROID_MAX_RADIUS =", ASTEROID_MAX_RADIUS * ASTEROID_KINDS, "\n")
-
+        
+    collided = 0
     running = True
     
     while running:
@@ -46,6 +47,11 @@ def main():
                 running = False
         
         updatable.update(dt)
+        
+        for asteroid in asteroids:
+            if player.collides_with(asteroid):
+                collided += 1
+                print("Collision", collided ,"with asteroid at", asteroid.position)
         
         screen.fill((0, 0, 0))
         
