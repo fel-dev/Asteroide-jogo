@@ -41,8 +41,6 @@ class Player(CircleShape):
         else:
             if self.shoot_timer > 0:
                 print("Weapon cooling down: {:.2f}s remaining".format(self.shoot_timer))
-            if self.shoot_timer <= 0:
-                print("Weapon ready to fire")
 
         self.position += self.velocity * dt
         
