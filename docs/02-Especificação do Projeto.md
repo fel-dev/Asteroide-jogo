@@ -238,21 +238,20 @@ O acompanhamento das tarefas segue o fluxo descrito na metodologia Scrum, confor
 
 ![Scrum](img/SCRUM.png)
 
+## ⏳ Gerenciamento de Tempo
+O cronograma do projeto é um elemento essencial para garantir que as atividades sejam concluídas dentro dos prazos estabelecidos, conforme destacado por Vargas (2018). O gerenciamento do tempo envolve a coordenação e o acompanhamento contínuo das tarefas, permitindo estimativas mais precisas e maior controle sobre o progresso do desenvolvimento.
 
-## Gerenciamento de Tempo
+Para isso, o uso de ferramentas visuais e estruturadas é indispensável, pois oferece uma visão clara e organizada das etapas do projeto. Um exemplo disso é o quadro de tarefas, que permite o monitoramento das atividades por status, prioridade e responsável, como ilustrado na imagem abaixo:
 
-O cronograma do projeto é fundamental para garantir que as atividades sejam concluídas dentro do prazo estabelecido, conforme destacado por Vargas (2018). O gerenciamento do cronograma envolve a coordenação e o acompanhamento das tarefas ao longo do tempo, permitindo uma estimativa precisa do tempo necessário para a conclusão de cada atividade.
+>![Gerenciamento de tempo](img/quadro-de-tarefas_asteroid-jogo.png)
+Gerenciamento de tempo
 
-O uso de diagramas bem estruturados é essencial para esse gerenciamento, fornecendo uma visão clara e organizada das atividades do projeto, como exemplificado na imagem abaixo:
+Outra ferramenta amplamente utilizada é o gráfico de Gantt, que representa visualmente o cronograma do projeto, destacando a duração de cada tarefa, suas dependências e datas de início e término. Essa abordagem facilita a identificação de gargalos, atrasos e pontos críticos, como demonstrado na imagem a seguir:
 
-![Gerenciamento de tempo ](img/gerenciamento_equipe.png)
+>![Grafico de gantt ](img/grafico-de-gantt_asteroid-jogo.png)
+Gráfico de Gantt
 
-O gráfico de Gantt, também conhecido como diagrama de Gantt, é uma ferramenta visual amplamente utilizada para controlar e gerenciar o cronograma de atividades de um projeto, conforme demonstrado na imagem a seguir:
-
-![Grafico de gantt ](img/grafico_gantt.png)
-
-Essas ferramentas proporcionam uma gestão eficaz do tempo, permitindo que o gerente de projeto identifique possíveis atrasos, antecipe problemas e tome medidas corretivas para garantir o cumprimento dos prazos estabelecidos.
-
+Essas ferramentas contribuem para uma gestão eficaz do tempo, permitindo ao gerente de projeto antecipar problemas, tomar decisões corretivas e garantir que os objetivos sejam alcançados dentro do prazo previsto.
 
 
 ## Gerenciamento de Equipe
