@@ -3,7 +3,7 @@
 
 ## Relação de Ambientes de Trabalho
 
-Nossa ferramenta principal, será o GitHub, que utilizaremos na sua forma típica de repositório, armazenando toda manutenção dos códigos. Paralelo a esta modalidade de repositório, também será usado para os gerenciamentos de backlog do produto, e das sprints individualizadas, este gerenciamento será feito através da aba “Project”.
+A principal ferramenta utilizada no projeto é o GitHub, que serve como repositório de código e também como plataforma de gerenciamento de tarefas. O controle do backlog e das sprints é realizado por meio da aba “Projects”, permitindo uma organização clara e eficiente mesmo em um contexto de desenvolvimento individual.
 
 
 ## Controle de Versão
@@ -11,6 +11,8 @@ Nossa ferramenta principal, será o GitHub, que utilizaremos na sua forma típic
 A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
 foi utilizado para hospedagem do repositório.
+
+>Todas as branches são gerenciadas por mim, seguindo a convenção abaixo para manter a organização e rastreabilidade do desenvolvimento.
 
 O projeto segue a seguinte convenção para o nome de branches:
 
@@ -33,10 +35,10 @@ etiquetas:
 
 A equipe está organizada da seguinte maneira:
 
-- __Scrum Master__: [Jeosafa Boy Eller](https://github.com/JEOSAFAELLER);
-- __Product Owner__: Profº Felipe Augusto Lara Soares
-- __Equipe de Desenvolvimento__: [Paulo Silas Barbosa](https://github.com/pauloosilas), [Ronald Justiniano Costa](https://github.com/donRond), [Felipe Corrêa Carneiro](https://github.com/fel-dev), Gabriel Alison; 
-- __Equipe de Design__: [Taciana Emanuela Campos Vitorino](https://github.com/tacivitorino);
+- __Scrum Master__: Felipe Corrêa Carneiro;
+- __Product Owner__: Felipe Corrêa Carneiro
+- __Equipe de Desenvolvimento__: Felipe Corrêa Carneiro; 
+- __Equipe de Design__: Felipe Corrêa Carneiro;
 
 ### Processo
 
@@ -52,7 +54,7 @@ Utilizamos o Github Projetcs para acompanhar andamento do projeto, a execução 
 - **Concluído**: todas as tarefas do sprint que já foram concluídas pela equipe de desenvolvimento.
 - **Lembrete**: uma aba com as datas das próximas entregas e a referência delas.
 
-O quadro de organização da equipe está diponível no Github Projetcs 
+O quadro de organização da equipe está diponível no [Github Projetcs](https://github.com/users/fel-dev/projects/6/views/3) 
 
 ### Ferramentas
 
