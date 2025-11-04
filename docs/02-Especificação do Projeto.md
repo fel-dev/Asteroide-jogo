@@ -194,17 +194,32 @@ A Matriz de Rastreabilidade de Requisitos é uma ferramenta essencial no desenvo
 |RF-11         |     |     |     | X   | X   | X   |     | X   |     |     |
 |RF-12         |     |     | X   | X   | X   | X   |     |     |     |     |
 
-![matriz de rastreabilidade](img/matriz_rastreabilidade.png)
 
+# 🎮 Gerenciamento de Projeto
+Segundo Vargas (2018), um projeto é um empreendimento único, caracterizado por uma sequência lógica de eventos, com começo, meio e fim, visando alcançar um objetivo claro e definido, sendo conduzido por pessoas dentro de parâmetros predefinidos de tempo, custo, recursos envolvidos e qualidade. Com base nessa definição, desenvolvemos a documentação e o jogo Asteroid, utilizando também os princípios descritos no PMBoK (Project Management Body of Knowledge).
+De acordo com a sexta edição do PMBoK, o gerenciamento de projetos é estruturado em dez áreas de conhecimento, que representam os pilares fundamentais para conduzir qualquer projeto com eficácia:
 
+- 📌 Integração
+- 📌 Escopo
+- 📌 Cronograma (Tempo)
+-	📌 Custos
+- 	📌 Qualidade
+- 	📌 Recursos
+- 	📌 Comunicações
+- 	📌 Riscos
+- 	📌 Aquisições
+- 	📌 Partes Interessadas
 
-# Gerenciamento de Projeto
- 
-Segundo Vargas (2018), _um projeto é um empreendimento único, caracterizado por uma sequência lógica de eventos, com começo, meio e fim, visando alcançar um objetivo claro e definido, sendo conduzido por pessoas dentro de parâmetros predefinidos de tempo, custo, recursos envolvidos e qualidade_. Com base nessa definição, desenvolvemos a documentação e o aplicativo PetFriend, utilizando também os princípios descritos no PMBoK.
+A gestão eficiente exige que essas áreas sejam tratadas de forma integrada e interdependente, pois alterações em uma delas — como o escopo — podem impactar diretamente o cronograma, os custos e até os riscos do projeto.
+Antes do início do projeto, é essencial realizar uma avaliação financeira, que permita entender sua viabilidade e retorno. Para isso, podem ser utilizadas técnicas como:
 
-De acordo com a sexta edição do PMBoK, as dez áreas que compõem os pilares para gerenciar projetos são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições e Partes Interessadas. Para o desenvolvimento eficaz de um projeto, é essencial gerenciar todas essas áreas de forma integrada, considerando suas inter-relações. Por exemplo, alterações no escopo podem impactar diretamente o cronograma e os custos do projeto.
+- 	💰 Valor Presente Líquido (VPL)
+- 	📈 Taxa Interna de Retorno (TIR)
+- 	⚖️ Análise de Custo-Benefício
+- 	⏳ Payback
+- 	🕒 Cost of Delay
 
-Antes do início do projeto, é crucial avaliá-lo sob uma perspectiva financeira. Existem várias técnicas que podem ser empregadas para isso, como o valor presente líquido, taxa interna de retorno, análise de custo-benefício, payback ou cost of delay. Além disso, ter uma visão clara do produto é fundamental para orientar o início e o término do projeto.
+Além disso, ter uma visão clara do produto — suas funcionalidades, público-alvo e objetivos — é fundamental para orientar tanto o início quanto o encerramento do projeto, garantindo que os resultados estejam alinhados às expectativas das partes interessadas.
 
 
 ## Divisão de Papéis
