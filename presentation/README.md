@@ -2,6 +2,7 @@
 
 ### Video
 
-Clique no link abaixo para visualizar o vídeo
+Clique no link abaixo para visualizar o vídeo do Projeto Space Miner: Asteroid Protocol
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/5b91sx0OvTw/0.jpg)](https://www.youtube.com/watch?v=5b91sx0OvTw](https://www.youtube.com/watch?v=5b91sx0OvTw) "Projeto de Aplicação Distribuída Dog's Friend")
+https://github.com/user-attachments/assets/95c61c13-c1f3-42b0-af4a-de3991e89171
+

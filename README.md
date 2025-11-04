@@ -1,28 +1,42 @@
-# Dog's Friend
+# Space Miner: Asteroid Protocol
 
 `Tecnologia em Análise e Desenvolvimento de Sistemas`
 
-`Projeto de Aplicação Distribuida Dog's Friend`
+`Projeto de Aplicação Distribuida -- Space Miner`
 
-`EIXO 4`
+`Graduado` -- `2025`
 
-A criação dessa plataforma atenderá a uma necessidade real na sociedade, muitos tutores de cães, geralmente por falta de tempo, têm se esquecido de cumprir um papel importantíssimo: o de levar o animalzinho para passear. A prática é tão fundamental quanto dar água e alimentar, porque tem benefícios diversos.
+Este projeto é um jogo 2D em Python com Pygame, inspirado no clássico Asteroids, com evolução para um simulador espacial de mineração, defesa automatizada e economia digital. O jogador pilota uma nave que coleta recursos, destrói asteroides e retorna à Terra para converter ouro em Bitcoin.
+
 ## Integrantes
 
 * Felipe Corrêa Carneiro
-* Jeosafa Boy Eller
-* Paulo Silas Bandeira
-* Ronald Justiniano Costa
-* Taciana Emanuela Campos Vitorino
-* Gabriel Allison
+ _ (demais nomes conforme o projeto for evoluindo em coletivo ou individual mesmo)_
 
-## Orientador
+## Orientadores
 
-* Felipe Augusto Lara Soares
+* Boot.Dev
+* Copilot Code
+* Copilot Assistence
+* Ai Google Studio
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+1. Instale o Python 3.10+
+2. Instale o Pygame:
+```python
+pip install pygame
+```
+_No terminal_
+
+3. Execute o jogo
+
+_Ainda no terminal, vá até o diretório do jogo e digite_
+
+```python
+python main.py
+```
+
 
 # Documentação
 
@@ -49,3 +63,38 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 # Apresentação
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
+
+
+🚀 Roadmap de Evolução do Jogo
+🧩 Fase 1: Finalizar o núcleo do jogo
+• 	[x] Movimento da nave
+• 	[x] Asteroides com colisão e divisão
+• 	[x] Tiros com cooldown e destruição
+• 	[ ] Pontuação por destruição
+• 	[ ] Tela de Game Over
+
+💰 Fase 2: Mineração espacial
+• 	[ ] Criar sprite  (pepitas de ouro)
+• 	[ ] Sistema de coleta ao colidir com pepitas
+• 	[ ] Variável  para rastrear progresso
+• 	[ ] Estação espacial para “voltar à Terra”
+• 	[ ] Conversão de ouro em Bitcoin (pontuação ou moeda)
+
+🛰️ Fase 3: Detecção e defesa automatizada
+• 	[ ] Implementar  para asteroides próximos
+• 	[ ] Sistema de alerta visual ou sonoro
+• 	[ ] Cálculo automático de direção do asteroide
+• 	[ ] Disparo de raio laser automático
+• 	[ ] Criar sprite  com alta velocidade e precisão
+
+🧠 Fase 4: Inteligência e upgrades
+• 	[ ] Sistema de upgrades (alcance, velocidade, dano)
+• 	[ ] Interface de compra com Bitcoin acumulado
+• 	[ ] Asteroides com comportamento inteligente (desviar, perseguir)
+• 	[ ] Radar ou minimapa com objetos detectados
+
+🌌 Fase 5: Mundo aberto e narrativa
+• 	[ ] Múltiplos setores espaciais com transição
+• 	[ ] Missões: minerar, defender, negociar
+• 	[ ] História: nave em busca de recursos para salvar a Terra
+• 	[ ] Sistema de reputação ou facções
