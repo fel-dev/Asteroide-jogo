@@ -55,11 +55,11 @@ def main():
             for shot in shots:
                 if shot.collides_with(asteroid):
                     print("Shot at", asteroid.position, "destroyed asteroid!")
-                    asteroid.kill()
+                    asteroid.split()
                     shot.kill()
-            if player.collides_with(asteroid):
-                collided += 1
-                print("Collision", collided ,"with asteroid at", asteroid.position)
+        if player.collides_with(asteroid):
+            collided += 1
+            print("Collision", collided ,"with asteroid at", asteroid.position)
         
         screen.fill((0, 0, 0))
         
