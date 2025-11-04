@@ -153,9 +153,12 @@ As restrições que moldam a execução deste projeto e estabelecem obrigações
 
 
 
-## Diagrama de Casos de Uso
+## 📌 Diagrama de Casos de Uso
 
-O Diagrama de Casos de Uso apresentado abaixo ilustra as interações entre os usuários e o sistema em diferentes cenários de uso. Os atores envolvidos são o Tutor e o Passeador, que interagem com o sistema por meio de diferentes funcionalidades, como cadastro, login, pesquisa, agendamento e pagamento.
+O diagrama de Casos de Uso apresentado abaixo ilustra as interações entre os principais atores e os sistemas em diferentes cenários de uso. Os atores incluem o **Jogador**, o **Sistema da Nave**, o **Ambiente Espacial**, os **NPCs** e a **Terra (Suporte Remoto)**. Casa ator interage com o sistema por meio de funcionalidades específicas, como navegação automaticasa, comunicação com latência, interação com NPCs, solicitação de ajuda remota.
+
+Esse diagrama tem como objetivo representar os diferentes cenários de uso e funcionalidades disponíveis no jogo, facilitando a compreensão das responsabilidaddes de cada componente e das possibilidades de interação entre os elementos do universo simulado.
+
 
 ![Diagrama de Casos de Uso](img/diagramas/diagrama-casos-de-uso-asteroid-jogo.png)
 
