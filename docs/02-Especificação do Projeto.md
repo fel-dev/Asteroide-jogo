@@ -222,16 +222,19 @@ Antes do início do projeto, é essencial realizar uma avaliação financeira, q
 Além disso, ter uma visão clara do produto — suas funcionalidades, público-alvo e objetivos — é fundamental para orientar tanto o início quanto o encerramento do projeto, garantindo que os resultados estejam alinhados às expectativas das partes interessadas.
 
 
-## Divisão de Papéis
+## 👤 Divisão de Papéis
+O projeto adota métodos ágeis, utilizando o **Scrum** como base para o processo de desenvolvimento, mesmo sendo conduzido por um único desenvolvedor. A estrutura organizacional foi adaptada para refletir essa condição, com os papéis sendo assumidos por uma única pessoa:
+- 	**Product Owner (P.O.)**: Felipe Corrêa Carneiro
+- 	**Scrum Master**: Felipe Corrêa Carneiro
+- 	**Desenvolvedor**: Felipe Corrêa Carneiro
+- 	**Designer**: Felipe Corrêa Carneiro
 
-A equipe adota métodos ágeis, utilizando o Scrum como base do processo de desenvolvimento. A estrutura organizacional é definida da seguinte maneira:
+Apesar da ausência de uma equipe multidisciplinar, os princípios do Scrum foram mantidos, com o trabalho sendo dividido em **sprints semanais**, cada uma contendo tarefas específicas e metas claras. O planejamento, execução e revisão das etapas são realizados de forma estruturada, respeitando o ciclo ágil:
+- 	📅 **Planejamento**: realizado no início de cada sprint, com definição de objetivos e tarefas
+- 	🛠️ Execução: desenvolvimento das funcionalidades previstas
+- 	✅ Revisão: avaliação dos resultados e ajustes necessários antes da entrega
 
-- __Product Owner (P.O.)__: Jeosafa Boy Eller;
-- __Scrum Master__: Ronald Justiniano Costa;
-- __Equipe de Desenvolvimento__: Taciana Emanuela Campos Vitorino, Ronald Justiniano Costa, Jeosafa Boy Eller, Gabriel;
-- __Equipe de Design__: Felipe Corrêa Carneiro, Taciana Emanuela Campos Vitorino.
-
-O trabalho é dividido em tarefas, com reuniões semanais após encontros com o P.O. para planejamento e esclarecimento de dúvidas. Na primeira reunião de cada etapa, as tarefas são organizadas e distribuídas. Na segunda-feira que antecede a entrega da etapa, a equipe se reúne para revisar e alinhar o que foi realizado. A Scrum Master acompanha essas tarefas semanalmente, seguindo o fluxo de metodologia descrito na imagem abaixo:
+O acompanhamento das tarefas segue o fluxo descrito na metodologia Scrum, conforme ilustrado na imagem abaixo:
 
 ![Scrum](img/SCRUM.png)
 
