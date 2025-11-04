@@ -157,7 +157,7 @@ As restrições que moldam a execução deste projeto e estabelecem obrigações
 
 O Diagrama de Casos de Uso apresentado abaixo ilustra as interações entre os usuários e o sistema em diferentes cenários de uso. Os atores envolvidos são o Tutor e o Passeador, que interagem com o sistema por meio de diferentes funcionalidades, como cadastro, login, pesquisa, agendamento e pagamento.
 
-![Diagrama de Casos de Uso](img/diagramas/diagrama de casos de uso.drawio.png)
+![Diagrama de Casos de Uso](img/diagramas/diagrama-casos-de-uso-asteroid-jogo.png)
 
 
 
