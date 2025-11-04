@@ -24,25 +24,13 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-👨‍🚀 Genivaldo Alves – Jogador casual com interesse em estratégia
-| EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`| PARA ... `MOTIVO/VALOR`|
-|---------------------|-----------------------------------|------------------------|
-|jogador curioso e fã de jogos espaciais|entender os recursos disponíveis e como usá-los estrategicamente / acessar tutoriais interativos e dicas durante o jogo.| para que eu possa aprender jogando e me sentir desafiado sem ficar perdido
 
-👩‍🏫 Marta Helena – Educadora que usa jogos como ferramenta de ensino
-| EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`| PARA ... `MOTIVO/VALOR`|
-|---------------------|-----------------------------------|------------------------|
-|professora de ciências interessada em gamificação|que o jogo simule aspectos reais da exploração espacial/usar o jogo como apoio didático em sala de aula|para que meus alunos aprendam sobre física, navegação e gestão de recursos de forma divertida|
-
-👩‍💻 Antonella Soares – Estudante e desenvolvedora iniciante
-| EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`| PARA ... `MOTIVO/VALOR`|
-|---------------------|-----------------------------------|------------------------|
-|estudante de tecnologia apaixonada por jogos|entender como o jogo foi feito e como posso contribuir/acessar o código aberto e a documentação do projeto|para que eu possa aprender com o projeto e aplicar meus conhecimentos|
-
-🧠 Persona adicional: Rafael Torres – Gamer hardcore e entusiasta de automação
-| EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`| PARA ... `MOTIVO/VALOR`|
-|---------------------|-----------------------------------|------------------------|
-|jogador experiente que gosta de jogos complexos|automatizar tarefas repetitivas como mineração e defesa/desbloquear módulos de automação conforme avanço no jogo|para que eu possa focar em estratégias mais avançadas e sentir progresso|
+| Nome                | EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`| PARA ... `MOTIVO/VALOR`|
+|---------------------|---------------------|-----------------------------------|------------------------|
+|👨‍🚀 Genivaldo Alves |jogador curioso e fã de jogos espaciais|entender os recursos disponíveis e como usá-los estrategicamente / acessar tutoriais interativos e dicas durante o jogo.| para que eu possa aprender jogando e me sentir desafiado sem ficar perdido|
+|👩‍🏫 Marta Helena    |professora de ciências interessada em gamificação|que o jogo simule aspectos reais da exploração espacial/usar o jogo como apoio didático em sala de aula|para que meus alunos aprendam sobre física, navegação e gestão de recursos de forma divertida|
+|👩‍💻 Antonella Soares |estudante de tecnologia apaixonada por jogos|entender como o jogo foi feito e como posso contribuir/acessar o código aberto e a documentação do projeto|para que eu possa aprender com o projeto e aplicar meus conhecimentos|
+|🧠 Rafael Torres     |jogador experiente que gosta de jogos complexos|automatizar tarefas repetitivas como mineração e defesa/desbloquear módulos de automação conforme avanço no jogo|para que eu possa focar em estratégias mais avançadas e sentir progresso|
 
 ## 🔄 Modelagem do Processo de Negócio  
 A modelagem do processo de negócio tem como objetivo representar os principais fluxos de interação entre os usuários e o sistema do jogo. Essa etapa é essencial para garantir que todas as funcionalidades estejam alinhadas com os objetivos do projeto e com as necessidades dos usuários identificadas nas personas.
