@@ -13,82 +13,94 @@ Este processo garantirá uma compreensão abrangente dos objetivos e requisitos 
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
-![imagem2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projdogsfriends/assets/81536287/48a888ca-3f57-4c83-acbb-41eba41f9de6)
-
-![imagem1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projdogsfriends/assets/81536287/f484b7ad-2cfd-4f1a-9d3c-4a0e52ada188)
-
-![imagem 3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t1-pmv-ads-2024-1-e4-projdogsfriends/assets/81536287/d66823bd-3e71-4cf8-9bb0-92b69f3a7fb3)
+|Nome | Idade | Profissão | Comportamento | Necessidades | Objetivo com o jogo|
+|:--|:--|:--|:--|:--|:--|
+|👨‍🚀 Genivaldo Alves – Jogador casual com interesse em estratégia | 34 anos | Analista de sistemas | Joga ocasionalmente, prefere jogos com desafios inteligentes e mecânicas estratégicas | Quer aprender jogando, sem depender de tutoriais externos | Sentir-se desafiado e engajado com mecânicas que vão além da simples destruição de asteroides|
+|👩‍🏫 Marta Helena – Educadora que usa jogos como ferramenta de ensino|Idade: 45 anos|Professora de Ciências do Ensino Médio|Busca recursos didáticos inovadores para engajar os alunos|Ferramentas que simulem conceitos científicos de forma acessível|Utilizar o jogo como apoio pedagógico para ensinar física, navegação espacial e gestão de recursos|
+|👩‍💻 Antonella Soares – Estudante e desenvolvedora iniciante|21 anos|Estudante de Ciência da Computação|Curiosa, gosta de explorar projetos open source e aprender com eles|Acesso ao código e documentação clara|Aprender sobre desenvolvimento de jogos e contribuir com melhorias|
+|🧠 Rafael Torres – Gamer hardcore e entusiasta de automação|29 anos|Engenheiro de software|Joga com frequência, valoriza jogos complexos e personalizáveis|Mecânicas de automação e progressão estratégica|Explorar sistemas avançados e sentir evolução ao desbloquear funcionalidades|
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-| EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE`                                        | PARA ... `MOTIVO/VALOR`                                               |
-|----------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| Genivaldo Alves      | Ter uma ferramenta fácil de acessar e segura                              | Para que possa contratar o serviço e ficar tranquilo em seu trabalho. |
-| Marta Helena         | Ter profissionais qualificados.                                           | Se sentir segura em contratar o serviço.                              |
-| Antonella Soares     | Ter um trabalho de algo que ela goste e possa conciliar com seus estudos. | para que ela administre seu horário de trabalho                       |
+👨‍🚀 Genivaldo Alves – Jogador casual com interesse em estratégia
+| EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`| PARA ... `MOTIVO/VALOR`|
+|---------------------|-----------------------------------|------------------------|
+|jogador curioso e fã de jogos espaciais|entender os recursos disponíveis e como usá-los estrategicamente / acessar tutoriais interativos e dicas durante o jogo.| para que eu possa aprender jogando e me sentir desafiado sem ficar perdido
 
+👩‍🏫 Marta Helena – Educadora que usa jogos como ferramenta de ensino
+| EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`| PARA ... `MOTIVO/VALOR`|
+|---------------------|-----------------------------------|------------------------|
+|professora de ciências interessada em gamificação|que o jogo simule aspectos reais da exploração espacial/usar o jogo como apoio didático em sala de aula|para que meus alunos aprendam sobre física, navegação e gestão de recursos de forma divertida|
 
+👩‍💻 Antonella Soares – Estudante e desenvolvedora iniciante
+| EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`| PARA ... `MOTIVO/VALOR`|
+|---------------------|-----------------------------------|------------------------|
+|estudante de tecnologia apaixonada por jogos|entender como o jogo foi feito e como posso contribuir/acessar o código aberto e a documentação do projeto|para que eu possa aprender com o projeto e aplicar meus conhecimentos|
 
-## Modelagem do Processo de Negócio 
+🧠 Persona adicional: Rafael Torres – Gamer hardcore e entusiasta de automação
+| EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`| PARA ... `MOTIVO/VALOR`|
+|---------------------|-----------------------------------|------------------------|
+|jogador experiente que gosta de jogos complexos|automatizar tarefas repetitivas como mineração e defesa/desbloquear módulos de automação conforme avanço no jogo|para que eu possa focar em estratégias mais avançadas e sentir progresso|
 
+## 🔄 Modelagem do Processo de Negócio  
+A modelagem do processo de negócio tem como objetivo representar os principais fluxos de interação entre os usuários e o sistema do jogo. Essa etapa é essencial para garantir que todas as funcionalidades estejam alinhadas com os objetivos do projeto e com as necessidades dos usuários identificadas nas personas.
 
-### Análise da Situação Atual
+### 📌 Análise da Situação Atual
 
-Tão importante quanto a alimentação, passear com o cachorro todos os dias traz diversos benefícios para a saúde física e mental do animal.
-Além de ele fazer atividade física, prevenindo diversas doenças como obesidade, é durante a caminhada que o cão alivia o estresse e a energia acumulada. 
-Durante o passeio, ele também faz a socialização com outros animais e pessoas, colocando seu instinto em prática. 
+O cenário atual dos jogos espaciais é dominado por títulos que priorizam ação rápida, gráficos avançados ou simulações altamente complexas. No entanto, poucos oferecem uma experiência acessível e educativa que una exploração, automação e economia digital em um ambiente interativo.
 
+Jogos clássicos como *Asteroids* focam na destruição de objetos, enquanto simuladores modernos como *EVE Online* e *The Outer Wilds* exploram aspectos mais profundos de navegação e narrativa. Ainda assim, há uma lacuna entre esses extremos: falta uma proposta que combine jogabilidade estratégica com elementos realistas como:
 
-### Descrição Geral da Proposta
+- Navegação automatizada com seleção de destinos
+- Comunicação com latência baseada na distância
+- Gestão de energia solar e recarga por painéis
+- Interação com NPCs com rotinas distintas
+- Economia baseada em coleta e conversão de recursos
 
-Os processos de negócio são realizados por meio de um aplicativo, que é acessado tanto pelo tutor quanto pelo profissional. O aplicativo é responsável por intermediar o contato entre os dois, permitindo que o tutor encontre um profissional, faça o agendamento e pague pelo serviço, e que o profissional aceite ou recuse o agendamento, realize o treinamento e registre a conclusão do serviço.
+Além disso, a maioria dos jogos não simula situações como ajuda remota em zonas de risco, consumo energético por tipo de armamento, ou a necessidade de preparar a nave para receber suprimentos em movimento — elementos que fazem parte da realidade de missões espaciais e poderiam enriquecer a experiência do jogador.
 
+O projeto *Asteroide-jogo* surge como uma resposta a essa lacuna, propondo uma solução que une jogabilidade envolvente, simulação realista e narrativa emergente, com foco em acessibilidade, criatividade e aprendizado.
+
+### 📌 Descrição Geral da Proposta
+
+Os processos de negócio simulados no jogo são realizados por meio de uma interface interativa, acessada pelo jogador através da nave espacial. O sistema é responsável por intermediar as ações entre o jogador, os elementos do universo (como asteroides, pepitas de ouro e NPCs) e os sistemas automatizados da nave.
+
+A nave funciona como uma plataforma operacional que permite ao jogador:
+
+- Selecionar destinos por meio de uma interface de busca inteligente
+- Navegar automaticamente até o local escolhido
+- Detectar e coletar recursos (pepitas de ouro) durante a missão
+- Retornar à Terra para converter os recursos em Bitcoin
+- Interagir com NPCs em zonas próximas à Terra para troca de informações
+- Receber ajuda remota em zonas de risco, como combustível enviado pela Terra
+- Gerenciar sistemas de defesa automatizada contra asteroides
+- Controlar o consumo de energia e recarregar o capacitor por meio de painéis solares
+
+Cada processo é representado por fluxos específicos dentro do jogo, como mostrado no diagrama de processos. Esses fluxos garantem que o jogador tenha uma experiência imersiva e estratégica, simulando desafios reais de exploração espacial, comunicação interestelar e sobrevivência em ambientes hostis.
 
 ### Overview do Processo
 
 O processo de negócio é composto por dois processos principais: **agendamento do treinamento** e **realização do treinamento**. Além desses, há um processo de **cadastro de profissionais/cliente**, um **processo de cadastro de Pets** e **um processo de pagamento**. Como podemos ver no diagrama de processos a seguir.
 
-![Overview do Processo](img/Processos/diagrama-completo.png)
+![Overview do Processo](img/diagramas/overview-asteroid-jogo-diagrama.jpg)
 
 
-### Processo 1 – Agendamento do Treinamento
+### Processo 1 – Navegação Automatizada
+O jogador acessa a interface de navegação da nave, digita o nome do destino ou escolhe por filtros (popularidade, distância, segurança). O sistema calcula a rota, inicia a navegação automatizada e exibe métricas como combustível, energia e latência de comunicação com a Terra.
 
-Neste processo, o tutor do pet tem a oportunidade de agendar um treinamento com um profissional. O tutor acessa o aplicativo, procura por profissionais disponíveis, escolhe um de acordo com suas preferências e faz o agendamento. O profissional recebe uma notificação sobre o novo agendamento e pode aceitá-lo ou recusá-lo.
+### Processo 2 – Coleta e Conversão de Recursos
+Durante a missão, o jogador coleta pepitas de ouro flutuantes. Ao retornar à Terra, o sistema converte os recursos em Bitcoin, que podem ser usados para upgrades da nave. O processo envolve colisão com pepitas, armazenamento interno e validação de conversão.
 
-![Processo 1](img/Processos/cliente-processo.png)
+### Processo 3 – Defesa Automatizada
+A nave detecta asteroides próximos por raio de proximidade. Se estiverem dentro do limite, o sistema dispara automaticamente um laser ou munição física, dependendo da energia disponível. O jogador pode configurar prioridades de defesa e monitorar o consumo energético.
 
+### Processo 4 – Interação com NPCs
+NPCs aparecem em zonas próximas à Terra. O jogador pode interagir com eles para obter informações, dicas ou missões secundárias. Os NPCs têm perfis variados (mineradores, turistas, técnicos) e não estão disponíveis em regiões distantes.
 
-### Processo 2 – Realização do Treinamento
-
-Após o agendamento ser aceito pelo profissional, o treinamento é realizado. O profissional vai até o local indicado pelo tutor, realiza o treinamento com o pet e, em seguida, registra no aplicativo que o treinamento foi concluído. O tutor recebe uma notificação sobre a conclusão do treinamento e pode avaliar o profissional.
-
-![Processo 2](img/Processos/treino-processo.png)
-
-
-### Processo 3 – Cadastro de Clientes e Profissionais
-
-O __tutor__ interessado em contratar um profissional para treinar seu pet se cadastra no aplicativo, informando seus dados pessoais, de contato e de pagamento. O cadastro é analisado e, se aprovado, o tutor passa a fazer parte do banco de dados do aplicativo.
-
-O __profissional__ interessado em prestar serviços de treinamento de pets se cadastra no aplicativo, informando seus dados pessoais, profissionais e bancários. O cadastro é analisado e, se aprovado, o profissional passa a fazer parte do banco de dados do aplicativo.
-
-![Processo 3](img/Processos/treinador.png)
-
-
-### Processo 4 – Cadastro de Pets
-
-O tutor do pet cadastra o animal no aplicativo, informando seus dados pessoais e de saúde. O cadastro é aprovado e o pet passa a fazer parte do banco de dados do aplicativo.
-
-![Processo 4](img/Processos/pet-processo.png)
-
-
-### Processo 5 – Pagamento
-
-Após a conclusão do treinamento, o tutor paga pelo serviço. O pagamento é feito pelo aplicativo, que repassa o valor ao profissional.
-
-![Processo 5](img/Processos/pagamento-processo.png)
-
+### Processo 5 – Suporte Remoto da Terra
+Em zonas de risco, o jogador pode solicitar ajuda à Terra. A comunicação tem latência proporcional à distância. Se aprovado, a Terra envia combustível ou suprimentos, que chegam em trajetória direta. O jogador precisa preparar uma rede para capturar o pacote.
 
 ## Indicadores de Desempenho
 
