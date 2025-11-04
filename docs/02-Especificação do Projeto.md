@@ -241,37 +241,40 @@ O acompanhamento das tarefas segue o fluxo descrito na metodologia Scrum, confor
 ## ⏳ Gerenciamento de Tempo
 O cronograma do projeto é um elemento essencial para garantir que as atividades sejam concluídas dentro dos prazos estabelecidos, conforme destacado por Vargas (2018). O gerenciamento do tempo envolve a coordenação e o acompanhamento contínuo das tarefas, permitindo estimativas mais precisas e maior controle sobre o progresso do desenvolvimento.
 
-Para isso, o uso de ferramentas visuais e estruturadas é indispensável, pois oferece uma visão clara e organizada das etapas do projeto. Um exemplo disso é o quadro de tarefas, que permite o monitoramento das atividades por status, prioridade e responsável, como ilustrado na imagem abaixo:
+Para isso, o uso de **ferramentas visuais e estruturadas** é indispensável, pois oferece uma visão clara e organizada das etapas do projeto. Um exemplo disso é o** quadro de tarefas**, que permite o monitoramento das atividades por status, prioridade e responsável, como ilustrado na imagem abaixo:
 
 >![Gerenciamento de tempo](img/quadro-de-tarefas_asteroid-jogo.png)
-Gerenciamento de tempo
+[Gerenciamento de tempo, clique aqui](https://github.com/users/fel-dev/projects/6/views/1)
 
-Outra ferramenta amplamente utilizada é o gráfico de Gantt, que representa visualmente o cronograma do projeto, destacando a duração de cada tarefa, suas dependências e datas de início e término. Essa abordagem facilita a identificação de gargalos, atrasos e pontos críticos, como demonstrado na imagem a seguir:
+Outra ferramenta amplamente utilizada é o **gráfico de Gantt**, que representa visualmente o cronograma do projeto, destacando a duração de cada tarefa, suas dependências e datas de início e término. Essa abordagem facilita a identificação de gargalos, atrasos e pontos críticos, como demonstrado na imagem a seguir:
 
 >![Grafico de gantt ](img/grafico-de-gantt_asteroid-jogo.png)
-Gráfico de Gantt
+[Gráfico de Gantt, clique aqui](https://github.com/users/fel-dev/projects/6/views/2)
 
 Essas ferramentas contribuem para uma gestão eficaz do tempo, permitindo ao gerente de projeto antecipar problemas, tomar decisões corretivas e garantir que os objetivos sejam alcançados dentro do prazo previsto.
 
 
-## Gerenciamento de Equipe
+## 👥 Gerenciamento de Equipe
+Embora o projeto **Asteroide_Jogo** esteja sendo desenvolvido individualmente, foram adotadas práticas de gerenciamento de tarefas inspiradas em metodologias ágeis, com foco na organização, produtividade e rastreabilidade das atividades. Seguindo as diretrizes da ABNT para uma documentação coesa e concisa, o gerenciamento eficiente das tarefas se tornou essencial para garantir o cumprimento dos prazos e a qualidade das entregas.
 
-O gerenciamento eficiente das tarefas é essencial para garantir altos níveis de produtividade no projeto, seguindo as diretrizes da ABNT para uma documentação coesa e concisa. É fundamental que haja uma gestão eficaz das tarefas e das equipes envolvidas, facilitando o acompanhamento e a coordenação das atividades.
+Uma das estratégias utilizadas foi a criação de um **quadro de atividades estilo Kanban**, hospedado no GitHub, como ilustrado na imagem abaixo:
 
-Uma prática adotada para gerenciar as tarefas foi a criação de um quadro de atividades no GitHub, como ilustrado na imagem abaixo:
+>![Kamban](img/Kamban_asteroid-jogo.png)
+[Kamban, clique aqui](https://github.com/users/fel-dev/projects/6/views/3)
 
-![Kamban](img/kamban.png)
-
-Esse quadro permite uma visualização clara das tarefas em andamento, pendentes e concluídas, proporcionando uma melhor organização e acompanhamento do progresso do projeto. Além disso, facilita a atribuição de responsabilidades e a comunicação entre os membros da equipe, contribuindo para a eficiência e o sucesso do projeto.
-
+Esse quadro permite uma visualização clara das tarefas pendentes, em andamento e concluídas, proporcionando maior controle sobre o progresso do projeto. Mesmo em um contexto de desenvolvimento individual, essa abordagem facilita a priorização das atividades, o planejamento das sprints e a identificação de gargalos, contribuindo diretamente para a eficiência e o sucesso do projeto.
 
 
-## Gestão de Orçamento
 
-A determinação do orçamento do projeto é uma etapa crucial, dependendo dos resultados de processos anteriores de gerenciamento de custos, bem como de outras áreas, como escopo e tempo.
 
-A imagem abaixo ilustra um exemplo de tabela com o tipo de despesas, custo mensal e total ao longo de cinco meses:
+## 💰 Gestão de Orçamento
+A definição do orçamento é uma etapa essencial no gerenciamento de projetos, pois permite prever, controlar e justificar os recursos financeiros necessários para sua execução. Essa estimativa depende diretamente dos resultados obtidos em processos anteriores, como o gerenciamento do escopo, do tempo e dos recursos, conforme orientações do PMBoK.
 
-![Orçamento](img/orcamento.png)
+A imagem abaixo apresenta uma **tabela de custos** que detalha os tipos de despesas envolvidas, o custo mensal estimado e o total acumulado ao longo de cinco meses de desenvolvimento:
 
-Essa tabela fornece uma visão detalhada dos custos envolvidos no projeto ao longo do tempo, permitindo um controle eficaz das despesas e garantindo que o projeto permaneça dentro do orçamento estabelecido.
+>![Orçamento](img/orcamento.png)
+Orçamento
+
+Essa estrutura orçamentária permite uma **visualização clara e objetiva dos gastos**, facilitando o controle financeiro e a tomada de decisões estratégicas. Além disso, a inclusão de uma **reserva de emergência** — calculada em 12% sobre o custo total — demonstra uma abordagem preventiva, essencial para lidar com imprevistos e garantir que o projeto se mantenha dentro dos limites financeiros estabelecidos.
+
+A gestão eficaz do orçamento contribui diretamente para a sustentabilidade do projeto, evitando desperdícios, otimizando recursos e assegurando que os objetivos sejam alcançados com qualidade e responsabilidade financeira.
