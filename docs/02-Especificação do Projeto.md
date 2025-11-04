@@ -162,11 +162,37 @@ Esse diagrama tem como objetivo representar os diferentes cenários de uso e fun
 
 ![Diagrama de Casos de Uso](img/diagramas/diagrama-casos-de-uso-asteroid-jogo.png)
 
-
+| CU↓  | CU-01                          |
+| --   | --                             |
+|01    | Selecionar destino             |
+|02    | Calcular rota                  |
+|04    | Iniciar navegação automatizada |
+|04    | Monitorar indicadores          |
+|05    | Coletar pepitas                |
+|06    | Converter recursos em Bitcoin  |
+|07    | Solicitar ajuda remota         |
+|08    | Interagir com NPCs             |
+|09    | Estender painéis solares       |
+|10    | Disparar laser automaticamente |
 
 # Matriz de Rastreabilidade
 
-A Matriz de Rastreabilidade de Requisitos é uma ferramenta essencial no desenvolvimento de projetos, garantindo a coesão entre os requisitos e as soluções implementadas. Na planilha apresentada abaixo, destaca-se a interligação entre os  [requisitos funcionais](#requisitos-funcionais) e [não funcionais](#requisitos-não-funcionais). Ao mapear essas conexões, obtém-se clareza sobre as dependências e os impactos, garantindo que o projeto atenda consistentemente às demandas estabelecidas.
+A Matriz de Rastreabilidade de Requisitos é uma ferramenta essencial no desenvolvimento de projetos, garantindo a coesão entre os requisitos e as soluções implementadas. Na planilha apresentada abaixo, destaca-se a interligação entre os  [requisitos funcionais](#requisitos-funcionais) e [casos de uso](#Diagrama-de-Casos-de-Uso). Ao mapear essas conexões, obtém-se clareza sobre as dependências e os impactos, garantindo que o projeto atenda consistentemente às demandas estabelecidas.
+
+|R.F. → / CU↓  |CU-01|CU-02|CU-03|CU-04|CU-05|CU-06|CU-07|CU-08|CU-09|CU-10|
+|--            |--   |--   |--   |--   |--   |--   |--   |--   |--   |--   |
+|RF-01         | X   | X   | X   | X   |     |     |     |     |     |     |
+|RF-02         |     | X   | X   | X   |     |     |     |     | X   | X   |
+|RF-04         |     | X   | X   | X   |     |     |     |     |     | X   |
+|RF-04         |     |     | X   | X   | X   | X   |     |     |     |     |
+|RF-05         |     |     | X   | X   | X   | X   |     |     |     |     |
+|RF-06         |     |     | X   | X   | X   | X   |     |     | X   | X   |
+|RF-07         |     |     | X   | X   |     |     |     |     | X   | X   |
+|RF-08         | X   |     | X   | X   |     |     |     | X   |     |     |
+|RF-09         | X   |     | X   | X   |     |     | X   |     |     |     |
+|RF-10         |     |     | X   | X   |     |     | X   |     | X   | X   |
+|RF-11         |     |     |     | X   | X   | X   |     | X   |     |     |
+|RF-12         |     |     | X   | X   | X   | X   |     |     |     |     |
 
 ![matriz de rastreabilidade](img/matriz_rastreabilidade.png)
 
