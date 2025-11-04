@@ -115,29 +115,26 @@ A seguir, são apresentados os principais indicadores de desempenho do jogo, com
 | Tempo Médio de Missão                  | Tempo total de missão / Número de missões concluídas             | Reduzir tempo médio para menos de 10 minutos         | 
 | Conversão de Recursos em Bitcoin       | Valor convertido / Total de pepitas coletadas                    | Converter pelo menos 70% dos recursos em cada missão | 
 
-## Requisitos
+## 🧾 Requisitos
 
 O escopo funcional do projeto é definido por meio dos [requisitos funcionais](#requisitos-funcionais) que descrevem as possibilidades interação dos usuários, bem como os requisitos [não funcionais](#requisitos-não-funcionais) descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
 
-
-
-### Requisitos Funcionais
+### ✅ Requisitos Funcionais
 
 | ID     | Descrição do Requisito                                                                                                | Prioridade |
 |--------|-----------------------------------------------------------------------------------------------------------------------|------------|
-| RF-001 | Permitir ao usuário (Tutor e passeador) cadastrar uma conta.                                                          | ALTA       |
-| RF-002 | Permitir ao usuário (Tutor e passeador) fazer o login de sua conta.                                                   | ALTA       |
-| RF-003 | Permitir ao usuário (Tutor e passeador) disponibilizar informações sobre endereço e contato.                          | ALTA       |
-| RF-004 | Permitir ao Tutor ter acesso às informações do Passeador.                                                             | ALTA       |
-| RF-005 | Oferecer uma funcionalidade de pesquisa/filtro para permitir ao Tutor localizar o passeador próximo a sua localidade. | ALTA       |
-| RF-006 | A aplicação deve apresentar o perfil do Passeador com imagem e informações.                                           | ALTA       |
-| RF-007 | A aplicação deve permitir que o Tutor faça o pagamento somente pelo app ou pix                                        | ALTA       |
-| RF-008 | A aplicação deve permitir ao Tutor fazer agendamentos.                                                                | ALTA       |
-| RF-009 | A aplicação deve permitir ao Tutor gerenciar seus agendamentos.                                                       | ALTA       |
-| RF-010 | A aplicação deve permitir ao Passeador visualizar sua agenda.                                                         | ALTA       |
-| RF-011 | A aplicação deve permitir ao Passeador aceitar ou negar agendamentos                                                  | ALTA       |
-| RF-012 | A aplicação deve permitir ao Passeador visualizar seu faturamento.                                                    | ALTA       |
-| RF-013 | A aplicação deverá permitir que as solicitações sejam ordenadas por ordem de chegada                                  | ALTA       |
+| RF-001 | Permitir ao jogador selecionar destinos por meio de uma interface de busca com filtros e sugestões.                   | ALTA       |
+| RF-002 | Calcular rota e iniciar navegação automatizada após seleção de destino.                                               | ALTA       |
+| RF-003 | Detectar asteroides próximos e disparar automaticamente com base em distância e energia disponível.                   | ALTA       |
+| RF-004 | Permitir ao jogador coletar pepitas de ouro durante a missão                                                          | ALTA       |
+| RF-005 | Converter pepitas em Bitcoin ao retornar à Terra                                                                      | ALTA       |
+| RF-006 | Permitir ao jogador monitorar indicadores como combustível, energia e latência de comunicação.                        | ALTA       |
+| RF-007 | Permitir ao jogador estender painéis solares e recarregar energia.                                                    | ALTA       |
+| RF-008 | Permitir interação com NPCs em zonas próximas à Terra.                                                                | MÉDIA      |
+| RF-009 | Permitir solicitação de ajuda remota à Terra em zonas de risco.                                                       | MÉDIA      |
+| RF-010 | Permitir ao jogador configurar prioridades de defesa automatizada.                                                    | MÉDIA      |
+| RF-011 | Registrar histórico de missões e recursos coletados.                                                                  | MÉDIA      |
+| RF-012 |Permitir upgrades da nave com Bitcoin acumulado.                                                                       | MÉDIA      |
 
 
 ### Requisitos não Funcionais
@@ -145,13 +142,14 @@ O escopo funcional do projeto é definido por meio dos [requisitos funcionais](#
 A seguir, são apresentados os requisitos não funcionais identificados para o projeto:
 
 
-| ID      | Descrição do Requisito                                                                                        | Prioridade |
-|---------|---------------------------------------------------------------------------------------------------------------|------------|
-| RNF-001 | O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku).  | MÉDIA      |
-| RNF-002 | O sistema deve processar requisições do usuário em no máximo 3 segundos.                                      | BAIXA      |
-| RNF-003 | O site deve ser responsivo, permitindo uma visualização adequada em dispositivos móveis.                      | BAIXA      |
-| RNF-004 | O site deve apresentar bom nível de contraste entre os elementos da tela, seguindo padrões de acessibilidade. | BAIXA      |
-| RNF-005 | O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | BAIXA      |
+| ID      | Descrição do Requisito                                                                        | Prioridade |
+|---------|-----------------------------------------------------------------------------------------------|------------|
+| RNF-001 | O jogo deve rodar em tempo real com taxa de atualização mínima de 60 FPS.                     | ALTA       |
+| RNF-002 | O sistema deve ser compatível com Windows e Linux.                                            | MÉDIA      |
+| RNF-003 | O jogo deve utilizar Pygame como motor gráfico.                                               | ALTA       |
+| RNF-004 | A interface deve ser intuitiva e responsiva, com suporte a teclado e mouse.                   | MÉDIA      |
+| RNF-005 | O sistema deve apresentar indicadores visuais claros para energia, combustível e comunicação. | MÉDIA      |
+| RNF-006 | O jogo deve permitir fácil expansão modular para futuras funcionalidades.                     | MÉDIA      |
 
 
 
