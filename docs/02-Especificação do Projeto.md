@@ -137,7 +137,7 @@ O escopo funcional do projeto é definido por meio dos [requisitos funcionais](#
 | RF-012 |Permitir upgrades da nave com Bitcoin acumulado.                                                                       | MÉDIA      |
 
 
-### Requisitos não Funcionais
+### ⚙️ Requisitos não Funcionais
 
 A seguir, são apresentados os requisitos não funcionais identificados para o projeto:
 
@@ -153,15 +153,15 @@ A seguir, são apresentados os requisitos não funcionais identificados para o p
 
 
 
-## Restrições
+## 🚫 Restrições
 
 As restrições que moldam a execução deste projeto e estabelecem obrigações claras para o seu desenvolvimento são apresentadas na tabela abaixo:
 
-| ID | Restrição                                                                        |
-|----|----------------------------------------------------------------------------------|
-| 01 | O projeto deve ser entregue até o final do semestre letivo, sem exceder 07/2024. |
-| 02 | O aplicativo não deve se limitar às tecnologias básicas da Web no BackEnd.       |
-| 03 | A equipe não está autorizada a terceirizar o desenvolvimento do projeto.         |
+| ID | Restrição                                                        |
+|----|------------------------------------------------------------------|
+| 01 | O jogo deve ser desenvolvido exclusivamente em Python com Pygame |
+| 02 | O escopo inicial não inclui funcionalidades multiplayer          |
+| 03 | A comunicação com NPCs será limitada às zonas próximas à Terra   |
 
 
 
