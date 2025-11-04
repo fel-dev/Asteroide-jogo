@@ -36,15 +36,15 @@ etiquetas:
 A equipe está organizada da seguinte maneira:
 
 - __Scrum Master__: Felipe Corrêa Carneiro;
-- __Product Owner__: Felipe Corrêa Carneiro
+- __Product Owner__: Felipe Corrêa Carneiro;
 - __Equipe de Desenvolvimento__: Felipe Corrêa Carneiro; 
 - __Equipe de Design__: Felipe Corrêa Carneiro;
 
 ### Processo
 
-A metodologia adotada para o desenvolvimento do projeto será o Scrum e cada ciclo de atividade será planejado através de sprint. O Scrum é um dos métodos ágeis mais populares, ideal para projetos que tenham prazo curto de entrega. Utilizamos o Github para acompanhar o andamento do projeto, execução das tarefas e o status de desenvolvimento da solução. Foram consideradas as seguintes listas:
+O projeto segue a metodologia Scrum, com ciclos de desenvolvimento organizados em sprints semanais. Mesmo sendo conduzido por um único desenvolvedor, o uso de listas como “Backlog”, “A Fazer”, “Em Andamento” e “Concluído” permite uma gestão clara e disciplinada das tarefas:
 
-Utilizamos o Github Projetcs para acompanhar andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. Foram consideradas as seguintes listas:
+Utilizamos o [*Github Projetcs para acompanhar andamento do projeto*🔗](https://github.com/users/fel-dev/projects/6/views/3), a execução das tarefas e o status de desenvolvimento da solução. Foram consideradas as seguintes listas:
 
 - **Propriedades das Tarefas**: É a etiqueta das tarefas, ou a prioridade em que serão apresentadas sendo alta cor vermelha, média cor amarela ou baixa cor verde.
 - **Backlog**: Lista ordenada de todos os requisitos que se tem conhecimento de que precisam estar no produto. Cada tarefa está associada a um 'milestone', que pressupõe uma entrega final.
@@ -54,17 +54,18 @@ Utilizamos o Github Projetcs para acompanhar andamento do projeto, a execução 
 - **Concluído**: todas as tarefas do sprint que já foram concluídas pela equipe de desenvolvimento.
 - **Lembrete**: uma aba com as datas das próximas entregas e a referência delas.
 
-O quadro de organização da equipe está diponível no [Github Projetcs](https://github.com/users/fel-dev/projects/6/views/3) 
+O quadro de organização da equipe está diponível no [_Github Projetcs_🔗](https://github.com/users/fel-dev/projects/6/views/3) 
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
+| Ferramenta | Finalidade |
+|------------|------------|
+| Visual Studio Code<br>Intellij/Webstorm<br>Vim | Editores de código para desenvolvimento |
+| Git e GitHub | Controle de versão e hospedagem do repositório |
+| Microsoft Teams<br>WhatsApp | Ferramentas de comunicação e colaboração |
+| Github Projects | Gerenciamento de tarefas e acompanhamento do progresso |
+| Figma<br>Canva | Design de interface e prototipagem |
+| Compass<br>Plasma<br>MongoDB | Gerenciamento de banco de dados |
 
-| Ferramenta                                   | Finalidade                                                                               |
-| -------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| Visual Studio Code, Intellij/Webstorm e Vim | Editor de codigo                                                                         |
-| Git / GitHub                                 | Sistema de controle de versão e plataforma de hospedagem de código                       |
-| Microsoft Teams, WhatsApp                    | Ferramenta de comunicação para colaboração da equipe                                     |
-| Github Projetcs                                       | Plataforma de gerenciamento de tarefas para dividir e acompanhar o progresso do trabalho |
-| Figma, Canva                                 | Ferramenta de design de interface de usuário (UI)                                        |
-| Compass, Plasma, MongoDB                     | Ferramenta de gerenciamento de banco de dados                                            |
+>Todas as ferramentas foram utilizadas por mim de forma integrada, permitindo o desenvolvimento completo do projeto com autonomia e controle.
