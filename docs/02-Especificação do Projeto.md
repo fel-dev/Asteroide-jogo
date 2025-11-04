@@ -102,25 +102,18 @@ NPCs aparecem em zonas próximas à Terra. O jogador pode interagir com eles par
 ### Processo 5 – Suporte Remoto da Terra
 Em zonas de risco, o jogador pode solicitar ajuda à Terra. A comunicação tem latência proporcional à distância. Se aprovado, a Terra envia combustível ou suprimentos, que chegam em trajetória direta. O jogador precisa preparar uma rede para capturar o pacote.
 
-## Indicadores de Desempenho
+## 📊 Indicadores de Desempenho
+A seguir, são apresentados os principais indicadores de desempenho do jogo, com fórmulas e metas que podem ser monitoradas ao longo das sessões de jogo. Esses indicadores ajudam a avaliar a eficiência da navegação, coleta de recursos, uso de energia e interação com sistemas automatizados.
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
+>Obs.: todas as informações para gerar os indicadores devem estar contempladas no diagrama de classe a ser apresentado a posteriori.
 
-Usar o seguinte modelo: 
-
-| Indicador de Desempenho          | Fórmula                                                                       | Meta                                                |
-|----------------------------------|-------------------------------------------------------------------------------|-----------------------------------------------------|
-| Número de agendamentos           | Número de agendamentos com status "Concluído" / Número total de agendamentos. | 100 agendamentos por mês.                           |
-| Número de passeios concluídos    | Quantidade de passeios concluídos.                                            | Atingir 90% de passeios concluídos no período.      |
-| Tempo Médio de Atendimento       | Tempo total de atendimento / Número de agendamentos.                          | Reduzir o tempo médio de atendimento para 24 horas. |
-| Número de Passeios por Passeador | Quantidade média de passeios realizados por cada passeador no período.        | Mais de 7 passeios por dia, em média.               |
-| Faturamento mensal               | Valor total dos treinamentos realizados.                                      | R$ 10.000,00.                                       |
-
-
->Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
-
-
-
+| Indicador de Desempenho                | Fórmula                                                          | Meta                                                 | 
+| --                                     | --                                                               | --                                                   | 
+| Taxa de Coleta de Recursos             | Número de pepitas coletadas / Número total de pepitas detectadas | Coletar pelo menos 80% dos recursos detectados       | 
+| Eficiência Energética da Nave          | Energia gasta / Recursos coletados                               | Reduzir consumo para menos de 5 unidades por pepita  | 
+| Taxa de Sucesso em Defesa Automatizada | Asteroides destruídos automaticamente / Asteroides detectados    | Acertar 90% dos alvos detectados                     | 
+| Tempo Médio de Missão                  | Tempo total de missão / Número de missões concluídas             | Reduzir tempo médio para menos de 10 minutos         | 
+| Conversão de Recursos em Bitcoin       | Valor convertido / Total de pepitas coletadas                    | Converter pelo menos 70% dos recursos em cada missão | 
 
 ## Requisitos
 
