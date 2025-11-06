@@ -54,7 +54,7 @@ Utilizamos o [*Github Projetcs para acompanhar andamento do projeto*🔗](https:
 - **Concluído**: todas as tarefas do sprint que já foram concluídas pela equipe de desenvolvimento.
 - **Lembrete**: uma aba com as datas das próximas entregas e a referência delas.
 
-O quadro de organização da equipe está diponível no [_Github Projetcs_🔗](https://github.com/users/fel-dev/projects/6/views/3) 
+O quadro de organização da equipe está diponível no [_Github Projetcs_ 🔗](https://github.com/users/fel-dev/projects/6/views/3) 
 
 ### Ferramentas
 
