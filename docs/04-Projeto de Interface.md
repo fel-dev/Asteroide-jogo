@@ -18,7 +18,7 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 | --                             | --         |
 | Tela inicial - Asteroid_Jogo   |![Tele inicial](img/wireframes/1-Tela_Inicial_Asteroide_Jogo.jpg)|
 | Dashboard                      |![Dashboard: visão geral do progresso, recursos e status da nave](img/wireframes/2-Tela_de_navegação.jpg)|            
-| Tela de Navegação              |![Tela de Navegação: escolha de destino, visualização de rota]()|
+| Tela de Navegação              |![Tela de Navegação: escolha de destino, visualização de rota](img/wireframes/3-Tela de Navegação.jpg)|
 | Tela de Interação com NPCs     |![Tela de Interação com NPCs: diálogos e trocas]()|
 | Tela de Upgrade                |![Tela de Upgrade: aplicação de melhorias na nave]()|
 | Tela de Notificações           |![Tela de Notificações: alertas sobre perigos ou eventos]()|
