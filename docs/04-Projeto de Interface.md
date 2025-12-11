@@ -20,7 +20,7 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 | Dashboard                      |![Dashboard: visão geral do progresso, recursos e status da nave](img/wireframes/2-Tela_de_navegação.jpg)|            
 | Tela de Navegação              |![Tela de Navegação: escolha de destino, visualização de rota](img/wireframes/3-Tela_de_Navegação.jpg)|
 | Tela de Interação com NPCs     |![Tela de Interação com NPCs: diálogos e trocas](img/wireframes/4-Tela_de_Interação_com_NPCs.jpg)|
-| Tela de Upgrade                |![Tela de Upgrade: aplicação de melhorias na nave]()|
+| Tela de Upgrade                |![Tela de Upgrade: aplicação de melhorias na nave](img/wireframes/5-Tela_de_Upgrade.jpg)|
 | Tela de Notificações           |![Tela de Notificações: alertas sobre perigos ou eventos]()|
 | Tela de Pagamento/Conversão    |![Tela de Pagamento/Conversão: uso de Bitcoin para upgrades]()|
  
